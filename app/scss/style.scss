@@ -16,14 +16,14 @@
     &__box {
     background-color: $lightGrey;
     border-radius: 6px;
-    max-width: 830px;
+    max-width: 920px;
     display: flex;
     align-items: stretch;
     justify-content: center;
     overflow: hidden;
     }
     &__item {
-        padding: 40px;
+        padding: 48px;
         background-color: $brightOrange;
         text-align: left;
         flex-basis: 33.3%;
