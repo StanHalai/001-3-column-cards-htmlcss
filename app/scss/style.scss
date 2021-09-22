@@ -1,0 +1,103 @@
+@import "reset";
+@import "vars";
+@import "globals";
+
+
+.container {
+
+    background-color: $lightGrey;
+    border-radius: 3px;
+    max-width: 1300px;
+    padding: 160px 240px;
+    margin: 0 auto;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, .1);
+}
+.card{
+    &__box {
+    background-color: $lightGrey;
+    border-radius: 6px;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    overflow: hidden;
+    }
+    &__item {
+        padding: 40px;
+        background-color: $brightOrange;
+        text-align: left;
+        flex-basis: 33.3%;
+        &:nth-child(2) {
+            background-color: $darkCyan;
+            &>.card__btn {
+                color: $darkCyan;
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+        &:nth-child(3) {
+            background-color: $veryDarkCyan;
+            &>.card__btn {
+                color: $veryDarkCyan;
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+    &__icon {
+        margin-bottom: 36px;
+    }
+    &__title {
+        color: $transparentWhite;
+        font-family: 'Big Shoulders Display', cursive;
+        font-size: 30px;
+        text-transform: uppercase;
+        margin-bottom: 36px;
+    }
+    &__descr {
+                color: $transparentWhite;
+        line-height: 1.5;
+        margin-bottom: 80px;
+    }
+    &__btn{
+        background-color: #fff;
+        border-radius: 24px;
+        cursor: pointer;
+        border: 2px solid #fff;
+        padding: 16px 30px;
+        color: $brightOrange;
+        transition: all 150ms ease-in-out;
+        &:hover {
+            background-color: transparent;
+            color: #fff;
+        }
+    }
+}
+
+
+.attribution {
+    position: absolute;
+    font-size: 11px;
+    text-align: center;
+    bottom: 40px;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+@media (max-width: 1440px) {
+    body {
+        height: auto;
+    }
+    .container {
+        padding: 94px 24px;
+        box-shadow: none
+    }
+    .card {
+        &__box {
+            flex-direction: column;
+        }
+    
+    }
+}
