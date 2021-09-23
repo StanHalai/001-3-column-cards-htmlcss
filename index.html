@@ -5,10 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stan Halai - Frontend Developer Samples</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <h1>Stan Halai - Frontend Developer Samples</h1>
+    <header class="header">
+      <div class="container">
+        <div class="header__top">
+          <div class="logo">Stan Halai</div>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link" href="#100DaysOfCode">#100DaysOfCode</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="https://github.com/stanhalai"
+                  >Github</a
+                >
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="https://twitter.com/stanhalai"
+                  >Twitter</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero__inner">
+            <h1 class="hero__title">
+              I am a frontend developer and this is my practice website.
+            </h1>
+          </div>
+        </div>
+      </section>
+      <section class="projects" id="100DaysOfCode">
+        <div class="container">
+          <div class="projects__inner">
+            <h2 class="projects__title">#100DaysOfCode</h2>
+            <div class="projects__grid">
+              <div class="project__item">
+                <a
+                  class="project__link"
+                  href="https://devmints.netlify.app/100days/001-three-column/"
+                  target="_blank"
+                >
+                  <div class="project__img"></div>
+                  <div class="project__title">
+                    Day 001 - 3 column cards grid
+                  </div>
+                </a>
+                <div class="project__tags">html css sass</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__text">
+            <p>I will add fancy footer later</p>
+            <p>
+              <a
+                href="mailto:info@trizioweb.com?subject=Mail to Stan Halai (frontend developer)"
+              >
+                Contact me</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
