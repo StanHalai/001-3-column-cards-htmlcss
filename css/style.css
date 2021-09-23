@@ -21,9 +21,11 @@ a:hover {
 }
 
 .header__top,
-.hero__inner,
 .projects__inner {
   padding: 100px 0px;
+}
+.hero__inner {
+  padding-top: 100px;
 }
 .footer__inner {
   padding: 70px 0px 100px;
