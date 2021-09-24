@@ -1,5 +1,5 @@
 body {
-  background-color: #eeeeee;
+  background-color: #fafafa;
   font-family: "Montserrat", sans-serif;
   color: #161616;
   font-size: 1rem;
@@ -32,7 +32,9 @@ a:hover .project__img {
   padding: 0 100px;
 }
 
-.header__top,
+.header__top {
+  padding: 50px 0px;
+}
 .projects__inner {
   padding: 100px 0px;
 }
