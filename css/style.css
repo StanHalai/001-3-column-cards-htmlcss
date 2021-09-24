@@ -89,6 +89,7 @@ a:hover .project__img {
 .project__img {
   background-color: #161616;
   background-size: cover;
+  background-position: center center;
   height: 280px;
   margin-bottom: 1.5rem;
 }
@@ -123,5 +124,67 @@ a:hover .project__img {
   }
   .project__item:not(:nth-child(4n)) {
     margin-right: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: none;
+    padding: 0 50px;
+  }
+  .header__top,
+  .projects__inner {
+    padding: 50px 0px;
+  }
+  .hero__inner {
+    padding-top: 50px;
+  }
+  .footer__inner {
+    padding: 35px 0px 50px;
+  }
+  .logo {
+    margin-bottom: 12px;
+  }
+  .project__title {
+    font-size: 24px;
+    margin-bottom: 0.4rem;
+  }
+  .project__item {
+    width: 240px;
+  }
+  .project__img {
+    height: 240px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: none;
+    padding: 0 24px;
+  }
+  .header__top,
+  .projects__inner {
+    padding: 24px 0px;
+  }
+  .hero__inner {
+    padding-top: 24px;
+  }
+  .footer__inner {
+    padding: 35px 0px 24px;
+  }
+}
+
+@media (max-width: 510px) {
+  .hero__inner {
+    font-size: 40px;
+  }
+  .project__item {
+    width: 100%;
+  }
+}
+
+@media (max-width: 510px) {
+  .hero__inner {
+    font-size: 32px;
   }
 }
