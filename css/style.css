@@ -59,8 +59,11 @@ a:hover .project__img {
   color: #161616;
 }
 .hero__inner {
-  font-size: 48px;
   font-weight: 700;
+}
+
+.hero__title {
+  font-size: 72px;
 }
 
 .projects__title {
@@ -175,7 +178,7 @@ a:hover .project__img {
 }
 
 @media (max-width: 510px) {
-  .hero__inner {
+  .hero__title {
     font-size: 48px;
   }
   .project__item {
