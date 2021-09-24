@@ -164,13 +164,13 @@ a:hover .project__img {
   }
   .header__top,
   .projects__inner {
-    padding: 24px 0px;
+    padding: 24px 0;
   }
   .hero__inner {
     padding-top: 24px;
   }
   .footer__inner {
-    padding: 35px 0px 24px;
+    padding: 35px 0;
   }
 }
 
