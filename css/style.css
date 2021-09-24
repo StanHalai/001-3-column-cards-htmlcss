@@ -176,7 +176,7 @@ a:hover .project__img {
 
 @media (max-width: 510px) {
   .hero__inner {
-    font-size: 40px;
+    font-size: 48px;
   }
   .project__item {
     width: 100%;
